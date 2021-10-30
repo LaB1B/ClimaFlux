@@ -13,7 +13,7 @@
 ## Introduction
 A simple weather UI react application. Just takes your IP and send a get request to [IPGeolocationAPi](https://ipgeolocation.io/) and get your city name. After that, It sends another get reqest to a [weather API](https://weatherstack.com/) with the query of your city.
 
-![preview](./pics/climaflux_readme.jpg)
+![preview](./src/pics/climaflux_readme.jpg)
 
 #installation
 Use the package manager [NPM](https://www.npmjs.com/) to install the library.
