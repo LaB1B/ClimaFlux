@@ -1,0 +1,20 @@
+@media only screen and (max-width: 600px) {
+    .Section .weather-card{
+        width: 80vw;
+
+    }
+
+   .weather-card .top-section{
+        transform: scale(.8);       
+   } 
+
+   .weather-card .bottom-section{
+       transform: scale(.7);
+       margin: 30% 0;
+       padding: 0px;
+   }
+
+   .weather-card .bottom-section h4 {
+       margin:-35px -10% -5% 0  
+   }
+}

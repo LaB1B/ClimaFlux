@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Raleway:wght@200&display=swap');
+body{
+   overflow-x: hidden;
+}
+
+.background{
+   width: 100%;
+   height: 100%;
+   position: fixed;
+   top : 0;
+   z-index: -1;
+}
+
+.Section{
+   position: absolute;
+   top: 0;
+   z-index: -1;
+   width: 100vw;
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}  
+
+.Section .weather-card{
+   width: 14cm;
+   height: 80vh;
+   box-shadow: 1px 1px 20px 3px #494949;
+   border-radius: 10px;
+}
+
+
+
+.weather-card .top-section {
+   display: flex;
+   flex-direction: row;
+   width: 100%;
+   height: 40%;
+   align-items: center;
+   justify-content: space-around;
+}
+
+
+.weather-card .top-section .Date-and-Time .Date {
+   color: #979797;
+   font-size: .9rem;
+   font-weight: bold;
+   font-family: 'Nunito', sans-serif;
+}
+
+
+
+.weather-card .top-section .Date-and-Time .Date-underscore{
+   width: 100px;
+   height: 3px;
+   border-radius: 10px;
+   font-family: 'Raleway', sans-serif;
+   margin: 2px 0px 6px 10px;
+   background-color: black;
+}
+
+.weather-card .top-section .Date-and-Time  .temperature{
+   font-size: 3.5rem;
+   font-family: 'Raleway', sans-serif;
+   color : #6e6e6e;
+}
+.weather-card .top-section .Date-and-Time .desc{
+   margin: -10% 0 0 -32%;
+   font-size: 1.1rem;
+   font-family: "Nunito" , sans-serif;
+   color: #6e6e6e;
+   width: 200px;
+   text-align: center;
+}
+
+.weather-card .top-section .iCon img{
+   width: 70px;
+   opacity: .6;
+}
+
+.weather-card .bottom-section{
+   margin: 30% 3% ;
+   height: 40%;
+   padding: 20px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+}
+.weather-card .bottom-section .earth {
+   font-size: 1.2rem;
+   font-family: "poppins" , sans-serif;
+   color: #bbbaba;
+}
+
+.weather-card .bottom-section h4{
+   font-size: 2.5rem;
+   font-family: "poppins" , sans-serif;
+   color: #cccccc;
+   font-weight: bold;
+   margin:-35px -10% -5% 0;
+}
+.weather-card .bottom-section .message {
+   font-size: 1.1rem;
+   
+   color: white;
+   font-family: "poppins" , sans-serif;
+
+}
