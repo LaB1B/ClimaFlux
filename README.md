@@ -1,6 +1,6 @@
 # Weather App 
 
-[![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://LaB1B.github.io/Weather-react-app)
+[![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://lab1b.github.io/ClimaFlux/)
 ![Maintenance](https://img.shields.io/badge/Still%20Working-Yes-red.svg)
 [![made-with-javascript](https://img.shields.io/badge/Made%20with-JavaScript-1f425f.svg)](https://www.javascript.com)
 [![made-with-javascript](https://img.shields.io/badge/Library%20Used-React-cyan.svg)](https://reactjs.org/)
